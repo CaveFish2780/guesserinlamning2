@@ -31,6 +31,11 @@ public class Guesser{
 	  this.low = low;
   }
   
+  @Override
+  public String toString() {
+	  return String.format("High: %d\nLow : %d", this.high, this.low);
+  }
+  	
 
   /*
    * Task 2. Complete the start() method, so that
