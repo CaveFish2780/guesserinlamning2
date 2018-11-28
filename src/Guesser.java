@@ -23,7 +23,10 @@ public class Guesser{
    */
   
   // Write the constructor below this line.
-
+  public Guesser(int high, int low) {
+	  this.high = high;
+	  this.low = low;
+  }
   
 
   /*
